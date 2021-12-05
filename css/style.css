@@ -828,9 +828,38 @@ a.hvr-radial-out:focus {
     padding: 30px;
     margin-top: 30px;
     transition: ease all 0.2s;
+	text-align: center;
 }
 
-.service_blog:hover, .service_blog:focus {
+.choose_blog {
+    float: left;
+    width: 100%;
+    border: solid #555 1px;
+    padding: 30px;
+    margin-top: 30px;
+    transition: ease all 0.2s;
+	text-align: center;
+}
+
+.choose_blog h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: solid #222 2px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.brands_blog {
+    float: left;
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    transition: ease all 0.2s;
+	text-align: center;
+}
+
+.service_blog:hover, .service_blog:focus, .choose_blog:hover, .choose_blog:focus {
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     transform: scale(1.02);
 }
@@ -1212,6 +1241,15 @@ figure.effect-service:hover {
 /*------------------------------------------------------------------ counter ----------------------------------------------------------------*/
 
 h2.timer.count-title.count-number {
+    color: #009432;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+}
+
+.numbers {
     color: #009432;
     font-size: 60px;
     font-weight: 600;
