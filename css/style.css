@@ -2007,3 +2007,8 @@ ul.bottom_menu li {
 .top-header.fixed-menu ul li:focus a {
 	color: #0892fd !important;
 }
+p a {
+	color: #fbfbfb;
+	text-decoration: none;
+	outline: none;
+}
